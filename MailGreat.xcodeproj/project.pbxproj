@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0001000000000000E7B123 /* MailGreatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0001000000000000E7B123 /* MailGreatApp.swift */; };
+		BF0002000000000000E7B123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0002000000000000E7B123 /* ContentView.swift */; };
+		BF0003000000000000E7B123 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0003000000000000E7B123 /* WelcomeView.swift */; };
+		BF0004000000000000E7B123 /* SourceAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0004000000000000E7B123 /* SourceAccountView.swift */; };
+		BF0005000000000000E7B123 /* DestinationAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0005000000000000E7B123 /* DestinationAccountView.swift */; };
+		BF0006000000000000E7B123 /* FolderMappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0006000000000000E7B123 /* FolderMappingView.swift */; };
+		BF0007000000000000E7B123 /* MigrationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0007000000000000E7B123 /* MigrationProgressView.swift */; };
+		BF0008000000000000E7B123 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0008000000000000E7B123 /* CompletionView.swift */; };
+		BF0009000000000000E7B123 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0009000000000000E7B123 /* SettingsView.swift */; };
+		BF000A000000000000E7B123 /* MigrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000A000000000000E7B123 /* MigrationViewModel.swift */; };
+		BF000B000000000000E7B123 /* EmailAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000B000000000000E7B123 /* EmailAccount.swift */; };
+		BF000C000000000000E7B123 /* EmailFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000C000000000000E7B123 /* EmailFolder.swift */; };
+		BF000D000000000000E7B123 /* MigrationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000D000000000000E7B123 /* MigrationState.swift */; };
+		BF000E000000000000E7B123 /* FolderMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000E000000000000E7B123 /* FolderMapping.swift */; };
+		BF000F000000000000E7B123 /* EmailServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF000F000000000000E7B123 /* EmailServiceProtocol.swift */; };
+		BF0010000000000000E7B123 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0010000000000000E7B123 /* TCPConnection.swift */; };
+		BF0011000000000000E7B123 /* IMAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0011000000000000E7B123 /* IMAPService.swift */; };
+		BF0012000000000000E7B123 /* POP3Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0012000000000000E7B123 /* POP3Service.swift */; };
+		BF0013000000000000E7B123 /* ExchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0013000000000000E7B123 /* ExchangeService.swift */; };
+		BF0014000000000000E7B123 /* MigrationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0014000000000000E7B123 /* MigrationEngine.swift */; };
+		BF0015000000000000E7B123 /* FolderMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0015000000000000E7B123 /* FolderMapper.swift */; };
+		BF0016000000000000E7B123 /* MigrationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0016000000000000E7B123 /* MigrationStore.swift */; };
+		BF0017000000000000E7B123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0017000000000000E7B123 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0001000000000000E7B123 /* MailGreatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailGreatApp.swift; sourceTree = "<group>"; };
+		AF0002000000000000E7B123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF0003000000000000E7B123 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		AF0004000000000000E7B123 /* SourceAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceAccountView.swift; sourceTree = "<group>"; };
+		AF0005000000000000E7B123 /* DestinationAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationAccountView.swift; sourceTree = "<group>"; };
+		AF0006000000000000E7B123 /* FolderMappingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderMappingView.swift; sourceTree = "<group>"; };
+		AF0007000000000000E7B123 /* MigrationProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationProgressView.swift; sourceTree = "<group>"; };
+		AF0008000000000000E7B123 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		AF0009000000000000E7B123 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AF000A000000000000E7B123 /* MigrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationViewModel.swift; sourceTree = "<group>"; };
+		AF000B000000000000E7B123 /* EmailAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAccount.swift; sourceTree = "<group>"; };
+		AF000C000000000000E7B123 /* EmailFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailFolder.swift; sourceTree = "<group>"; };
+		AF000D000000000000E7B123 /* MigrationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationState.swift; sourceTree = "<group>"; };
+		AF000E000000000000E7B123 /* FolderMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderMapping.swift; sourceTree = "<group>"; };
+		AF000F000000000000E7B123 /* EmailServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailServiceProtocol.swift; sourceTree = "<group>"; };
+		AF0010000000000000E7B123 /* TCPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		AF0011000000000000E7B123 /* IMAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMAPService.swift; sourceTree = "<group>"; };
+		AF0012000000000000E7B123 /* POP3Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP3Service.swift; sourceTree = "<group>"; };
+		AF0013000000000000E7B123 /* ExchangeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeService.swift; sourceTree = "<group>"; };
+		AF0014000000000000E7B123 /* MigrationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationEngine.swift; sourceTree = "<group>"; };
+		AF0015000000000000E7B123 /* FolderMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderMapper.swift; sourceTree = "<group>"; };
+		AF0016000000000000E7B123 /* MigrationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationStore.swift; sourceTree = "<group>"; };
+		AF0017000000000000E7B123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0018000000000000E7B123 /* MailGreat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MailGreat.entitlements; sourceTree = "<group>"; };
+		AF0019000000000000E7B123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF001A000000000000E7B123 /* MailGreat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailGreat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0003000000000000E7B123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0001000000000000E7B123 = {
+			isa = PBXGroup;
+			children = (
+				CF0002000000000000E7B123 /* MailGreat */,
+				CF000A000000000000E7B123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0002000000000000E7B123 /* MailGreat */ = {
+			isa = PBXGroup;
+			children = (
+				AF0001000000000000E7B123 /* MailGreatApp.swift */,
+				AF0002000000000000E7B123 /* ContentView.swift */,
+				CF0003000000000000E7B123 /* Views */,
+				CF0004000000000000E7B123 /* ViewModels */,
+				CF0005000000000000E7B123 /* Models */,
+				CF0006000000000000E7B123 /* Services */,
+				CF0007000000000000E7B123 /* Engine */,
+				CF0008000000000000E7B123 /* Persistence */,
+				CF0009000000000000E7B123 /* Resources */,
+				AF0018000000000000E7B123 /* MailGreat.entitlements */,
+				AF0019000000000000E7B123 /* Info.plist */,
+			);
+			path = MailGreat;
+			sourceTree = "<group>";
+		};
+		CF0003000000000000E7B123 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF0003000000000000E7B123 /* WelcomeView.swift */,
+				AF0004000000000000E7B123 /* SourceAccountView.swift */,
+				AF0005000000000000E7B123 /* DestinationAccountView.swift */,
+				AF0006000000000000E7B123 /* FolderMappingView.swift */,
+				AF0007000000000000E7B123 /* MigrationProgressView.swift */,
+				AF0008000000000000E7B123 /* CompletionView.swift */,
+				AF0009000000000000E7B123 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF0004000000000000E7B123 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF000A000000000000E7B123 /* MigrationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF0005000000000000E7B123 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF000B000000000000E7B123 /* EmailAccount.swift */,
+				AF000C000000000000E7B123 /* EmailFolder.swift */,
+				AF000D000000000000E7B123 /* MigrationState.swift */,
+				AF000E000000000000E7B123 /* FolderMapping.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF0006000000000000E7B123 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF000F000000000000E7B123 /* EmailServiceProtocol.swift */,
+				AF0010000000000000E7B123 /* TCPConnection.swift */,
+				AF0011000000000000E7B123 /* IMAPService.swift */,
+				AF0012000000000000E7B123 /* POP3Service.swift */,
+				AF0013000000000000E7B123 /* ExchangeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CF0007000000000000E7B123 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				AF0014000000000000E7B123 /* MigrationEngine.swift */,
+				AF0015000000000000E7B123 /* FolderMapper.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		CF0008000000000000E7B123 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				AF0016000000000000E7B123 /* MigrationStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		CF0009000000000000E7B123 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF0017000000000000E7B123 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF000A000000000000E7B123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF001A000000000000E7B123 /* MailGreat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0001000000000000E7B123 /* MailGreat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0004000000000000E7B123 /* Build configuration list for PBXNativeTarget "MailGreat" */;
+			buildPhases = (
+				EF0001000000000000E7B123 /* Sources */,
+				EF0002000000000000E7B123 /* Resources */,
+				EF0003000000000000E7B123 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailGreat;
+			productName = MailGreat;
+			productReference = AF001A000000000000E7B123 /* MailGreat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0001000000000000E7B123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FF0001000000000000E7B123 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DF0001000000000000E7B123 /* Build configuration list for PBXProject "MailGreat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0001000000000000E7B123;
+			productRefGroup = CF000A000000000000E7B123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0001000000000000E7B123 /* MailGreat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0002000000000000E7B123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0017000000000000E7B123 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0001000000000000E7B123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0001000000000000E7B123 /* MailGreatApp.swift in Sources */,
+				BF0002000000000000E7B123 /* ContentView.swift in Sources */,
+				BF0003000000000000E7B123 /* WelcomeView.swift in Sources */,
+				BF0004000000000000E7B123 /* SourceAccountView.swift in Sources */,
+				BF0005000000000000E7B123 /* DestinationAccountView.swift in Sources */,
+				BF0006000000000000E7B123 /* FolderMappingView.swift in Sources */,
+				BF0007000000000000E7B123 /* MigrationProgressView.swift in Sources */,
+				BF0008000000000000E7B123 /* CompletionView.swift in Sources */,
+				BF0009000000000000E7B123 /* SettingsView.swift in Sources */,
+				BF000A000000000000E7B123 /* MigrationViewModel.swift in Sources */,
+				BF000B000000000000E7B123 /* EmailAccount.swift in Sources */,
+				BF000C000000000000E7B123 /* EmailFolder.swift in Sources */,
+				BF000D000000000000E7B123 /* MigrationState.swift in Sources */,
+				BF000E000000000000E7B123 /* FolderMapping.swift in Sources */,
+				BF000F000000000000E7B123 /* EmailServiceProtocol.swift in Sources */,
+				BF0010000000000000E7B123 /* TCPConnection.swift in Sources */,
+				BF0011000000000000E7B123 /* IMAPService.swift in Sources */,
+				BF0012000000000000E7B123 /* POP3Service.swift in Sources */,
+				BF0013000000000000E7B123 /* ExchangeService.swift in Sources */,
+				BF0014000000000000E7B123 /* MigrationEngine.swift in Sources */,
+				BF0015000000000000E7B123 /* FolderMapper.swift in Sources */,
+				BF0016000000000000E7B123 /* MigrationStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF0002000000000000E7B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF0003000000000000E7B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0005000000000000E7B123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MailGreat/MailGreat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MailGreat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MailGreat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 MailGreat. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailgreat.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF0006000000000000E7B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MailGreat/MailGreat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MailGreat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MailGreat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 MailGreat. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mailgreat.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0001000000000000E7B123 /* Build configuration list for PBXProject "MailGreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0002000000000000E7B123 /* Debug */,
+				DF0003000000000000E7B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0004000000000000E7B123 /* Build configuration list for PBXNativeTarget "MailGreat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0005000000000000E7B123 /* Debug */,
+				DF0006000000000000E7B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0001000000000000E7B123 /* Project object */;
+}
